@@ -1,0 +1,65 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logdiver"
+version = "0.1.0"
+description = "A beautiful, keyboard-driven TUI log file explorer for the terminal"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    {name = "Jyotirmoy Ghosh"},
+]
+keywords = ["tui", "logs", "terminal", "textual", "cli", "developer-tools", "log-viewer", "rich"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: System :: Logging",
+    "Topic :: System :: Monitoring",
+    "Typing :: Typed",
+]
+dependencies = [
+    "textual>=0.50.0",
+    "rich>=13.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.4.0",
+    "mypy>=1.0",
+    "pytest>=7.0",
+]
+
+[project.scripts]
+logdiver = "logdiver.main:run"
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/logdiver"
+Repository = "https://github.com/YOUR_USERNAME/logdiver"
+Issues = "https://github.com/YOUR_USERNAME/logdiver/issues"
+Changelog = "https://github.com/YOUR_USERNAME/logdiver/blob/main/CHANGELOG.md"
+
+[tool.setuptools.packages.find]
+include = ["logdiver*"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
