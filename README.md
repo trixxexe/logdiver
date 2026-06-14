@@ -3,7 +3,7 @@
 [![PyPI version](https://badge.fury.io/py/logdiver.svg)](https://pypi.org/project/logdiver/)
 [![Python](https://img.shields.io/pypi/pyversions/logdiver)](https://pypi.org/project/logdiver/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![CI](https://github.com/YOUR_USERNAME/logdiver/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/logdiver/actions)
+[![CI](https://github.com/trixxexe/logdiver/actions/workflows/ci.yml/badge.svg)](https://github.com/trixxexe/logdiver/actions)
 
 A beautiful, keyboard-driven TUI log file explorer for the terminal.
 

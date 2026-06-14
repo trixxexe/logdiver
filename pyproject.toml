@@ -44,10 +44,10 @@ dev = [
 logdiver = "logdiver.main:run"
 
 [project.urls]
-Homepage = "https://github.com/YOUR_USERNAME/logdiver"
-Repository = "https://github.com/YOUR_USERNAME/logdiver"
-Issues = "https://github.com/YOUR_USERNAME/logdiver/issues"
-Changelog = "https://github.com/YOUR_USERNAME/logdiver/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/trixxexe/logdiver"
+Repository = "https://github.com/trixxexe/logdiver"
+Issues = "https://github.com/trixxexe/logdiver/issues"
+Changelog = "https://github.com/trixxexe/logdiver/blob/main/CHANGELOG.md"
 
 [tool.setuptools.packages.find]
 include = ["logdiver*"]
